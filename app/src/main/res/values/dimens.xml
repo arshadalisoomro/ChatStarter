@@ -2,4 +2,14 @@
     <!-- Default screen margins, per the Android Design guidelines. -->
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="date_text_size">12sp</dimen>
+    <dimen name="chat_bar_height">56.0dip</dimen>
+    <dimen name="chat_bar_icon">46.0dip</dimen>
+    <dimen name="input_text_fontsize">16.0sp</dimen>
+    <dimen name="md_message_corner">5dp</dimen>
+    <dimen name="avatar_size">40dp</dimen>
+    <dimen name="chat_name_fontsize">12sp</dimen>
+    <dimen name="chat_text_msg_fontsize">16sp</dimen>
+    <dimen name="chat_timestamp_fontsize">11sp</dimen>
+    <dimen name="text_body_line_spacing">3dp</dimen>
 </resources>

@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="fill_parent" android:layout_height="wrap_content">
+	<View android:id="@+id/hline1"
+		android:background="@drawable/talkscreen_divider"
+		android:layout_width="fill_parent"
+		android:layout_height="1.0dip"
+		android:layout_marginRight="8.0dip"
+		android:layout_toLeftOf="@+id/talk_date_divider_text"
+		android:layout_centerVertical="true" />
+	<TextView android:textAppearance="@style/TextAppearance.Talkray.Medium"
+		android:textSize="@dimen/date_text_size"
+		android:textColor="@color/black_lightest"
+		android:gravity="center"
+		android:text="Assalam O Alekum"
+		android:id="@+id/talk_date_divider_text"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_centerHorizontal="true" />
+	<View android:id="@+id/hline2"
+		android:background="@drawable/talkscreen_divider"
+		android:layout_width="fill_parent"
+		android:layout_height="1.0dip"
+		android:layout_marginLeft="8.0dip"
+		android:layout_toRightOf="@+id/talk_date_divider_text"
+		android:layout_centerVertical="true" />
+</RelativeLayout>

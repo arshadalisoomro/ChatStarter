@@ -3,4 +3,13 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+    <color name="gray_divider_color">#dad2d2</color>
+    <color name="black_heavy">#de000000</color>
+    <color name="black_light">#89000000</color>
+    <color name="black_lightest">#5e000000</color>
+    <color name="gray_light">#fff8fafb</color>
+    <color name="gray_primary">#ffe8edf0</color>
+    <color name="gray_systembar">#ff757575</color>
+    <color name="transparent">#00000000</color>
+    <color name="ripple_gray">#ffdddddd</color>
 </resources>

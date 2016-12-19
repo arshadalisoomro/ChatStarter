@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Chat Starter</string>
+    <string name="message_hint">Type message</string>
+    <string name="send">Send</string>
 </resources>

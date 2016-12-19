@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="start"
+	android:orientation="horizontal" android:visibility="visible" android:layout_width="match_parent"
+	android:layout_height="wrap_content">
+	<View android:id="@+id/them_avatar_spacer" android:visibility="gone"
+		android:layout_width="@dimen/avatar_size" android:layout_height="0.0dip" />
+	<org.slabs.fc.chatstarter.ui.CircularImageView android:id="@+id/them_avatar"
+		android:visibility="gone" android:layout_width="@dimen/avatar_size"
+		android:layout_height="@dimen/avatar_size" android:src="@drawable/default_avatar"
+		android:layout_marginLeft="5dp"
+		android:layout_marginTop="10dp" />
+	<LinearLayout android:gravity="start" android:orientation="vertical"
+		android:layout_width="match_parent" android:layout_height="wrap_content"
+		android:layout_marginLeft="4.0dip">
+		<TextView android:textSize="@dimen/chat_name_fontsize"
+			android:textColor="@color/black_light"
+			android:id="@+id/chat_title"
+			android:text="Title"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="6.0dip"
+			android:layout_marginTop="6dp"
+			android:layout_marginBottom="2.0dip"
+			android:includeFontPadding="false" />
+		<LinearLayout android:gravity="start"
+			android:orientation="horizontal"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content">
+			<!--<LinearLayout android:autoLink="all" android:linksClickable="true"
+				android:layout_width="match_parent"
+				android:clickable="true"
+				android:layout_marginRight="63.0dip"
+				android:background="@drawable/selectable_balloon_left" android:visibility="visible"
+				android:layout_height="wrap_content">-->
+				<org.slabs.fc.chatstarter.ui.ChatThemTextView
+					android:textSize="@dimen/chat_text_msg_fontsize"
+					android:clickable="true"
+					android:layout_marginRight="63.0dip"
+					android:autoLink="all" android:linksClickable="true"
+					android:textColor="@color/black_heavy"
+					android:id="@+id/chat_text"
+					android:text="Some MessageSome MessageSome Message"
+					android:background="@drawable/selectable_balloon_left" android:visibility="visible"
+					android:layout_height="wrap_content"
+					android:layout_width="match_parent"
+					android:lineSpacingExtra="@dimen/text_body_line_spacing"
+					android:textIsSelectable="false" />
+			<!--</LinearLayout>-->
+
+			<TextView android:textSize="@dimen/chat_timestamp_fontsize"
+				android:textColor="@color/black_lightest"
+				android:text="12:15"
+				android:layout_gravity="start|center" android:id="@+id/chat_time"
+				android:layout_width="60.0dip" android:layout_height="wrap_content"
+				android:layout_marginLeft="-60.0dip" />
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>
